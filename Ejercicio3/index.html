@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <!--css-->
+    <link rel="stylesheet" href="./style.css">
+    <!--js-->
+    <script src="./main.js" type="module" defer></script>
+</head>
+<body>
+    <!--Construir el algoritmo para determinar el voltaje de un
+    circuito a partir de la resistencia y la intensidad de corriente-->
+    <main>
+        <h1>Determinar Voltaje de un Circuito</h1>
+        <form id="myFormulario">
+            <label for="res">Ingrese la resistencia</label><br>
+            <input type="text" id="res" name="res" placeholder="Ingrese la resistencia" pattern="[0-9-.]+" required><br>
+            <label for="int">Ingrese la corriente</label><br>
+            <input type="text" id="int" name="int" placeholder="Ingrese la corriente" pattern="[0-9-.]+" required><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <section>
+        <h1>Resultado</h1>
+        <pre></pre>
+    </section>
+</body>
+</html>
